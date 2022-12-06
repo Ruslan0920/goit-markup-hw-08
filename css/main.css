@@ -578,6 +578,9 @@ img {
   letter-spacing: 0.02em;
   color: #212121;
 }
+.mobile-menu-item__link:hover {
+  color: #2196F3;
+}
 
 .mobile-menu-contacts__mail-tel {
   margin-bottom: 32px;
@@ -606,9 +609,17 @@ img {
 
 .mobile-menu-social-links {
   display: flex;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  letter-spacing: 0.02em;
+  color: #2196F3;
 }
 
-.mobile-menu-social-links__list :not(:last-child) {
+.mobile-menu-social-links__list:not(:last-child) {
   margin-right: 20px;
 }
 
