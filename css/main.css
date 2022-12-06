@@ -561,6 +561,57 @@ img {
   fill: #2196F3;
 }
 
+.mobile-menu-item {
+  margin-bottom: 306px;
+}
+
+.mobile-menu-item__list {
+  margin-bottom: 32px;
+}
+
+.mobile-menu-item__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.mobile-menu-contacts__mail-tel {
+  margin-bottom: 32px;
+}
+
+.mobile-menu-contacts__phone {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: #2196F3;
+}
+
+.mobile-menu-contacts__mail {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.mobile-menu-social-links {
+  display: flex;
+}
+
+.mobile-menu-social-links__list :not(:last-child) {
+  margin-right: 20px;
+}
+
 .hero-container__main-title {
   width: 696px;
   margin-left: auto;
