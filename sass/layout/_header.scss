@@ -1,24 +1,10 @@
 .main-header {
+  position: relative;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.menu {
-  display: none;
-}
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.mobile-menu-button {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  line-height: 0;
-  cursor: pointer;
-}
 
 // .main-header {
 //   padding-top: 25px;
