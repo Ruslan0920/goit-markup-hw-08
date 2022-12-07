@@ -1,17 +1,23 @@
 .clients-item {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .clients-item__list {
   display: flex;
+  width: 210px;
+  margin-bottom: 30px;
+  &:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
 }
 
 .clients-item__link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
+  width: 210px;
   height: 92px;
   fill: #afb1b8;
   border: 1px solid #afb1b8;
@@ -25,3 +31,33 @@
     fill: var(--third-text-color);
   }
 }
+
+// -- DESKTOP--
+
+// .clients-item {
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+// .clients-item__list {
+//   display: flex;
+// }
+
+// .clients-item__link {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 170px;
+//   height: 92px;
+//   fill: #afb1b8;
+//   border: 1px solid #afb1b8;
+//   border-radius: 4px;
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//   &:hover,
+//   &:focus {
+//     border-color: var(--third-bcg-color);
+//     fill: var(--third-text-color);
+//   }
+// }
