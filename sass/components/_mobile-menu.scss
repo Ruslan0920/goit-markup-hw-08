@@ -16,7 +16,8 @@
   cursor: pointer;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover {
+  &:hover,
+  &:focus {
     fill: var(--third-text-color);
   }
 }
@@ -31,13 +32,14 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  background-color: #ffffff;
+  background-color: var(--fifth-bcg-color);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
-  pointer-events: visibleFill;
+  pointer-events: auto;
 }
 
 .mobile-menu__container {
@@ -79,10 +81,11 @@
   line-height: 1.18;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--primary-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover {
+  &:hover,
+  &:focus          {
     color: var(--third-text-color);
   }
 }
@@ -112,7 +115,7 @@
   line-height: 28px;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .mobile-menu-social-links {

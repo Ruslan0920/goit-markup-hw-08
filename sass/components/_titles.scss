@@ -1,16 +1,32 @@
 .hero-container__main-title {
-  width: 696px;
+  width: 360px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
   font-family: var(--primary-font-family);
-  font-size: 44px;
+  font-size: 26px;
   font-weight: 900;
-  line-height: 1.36;
+  line-height: 1.61;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--fourth-text-color);
 }
+
+// -- DESKTOP--
+
+// .hero-container__main-title {
+//   width: 696px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-bottom: 30px;
+//   font-family: var(--primary-font-family);
+//   font-size: 44px;
+//   font-weight: 900;
+//   line-height: 1.36;
+//   text-transform: uppercase;
+//   letter-spacing: 0.06em;
+//   color: var(--fourth-text-color);
+// }
 
 .secondary-titles {
   font-family: var(--primary-font-family);
