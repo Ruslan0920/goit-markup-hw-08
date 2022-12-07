@@ -136,7 +136,6 @@ img {
 }
 
 .features-items__description {
-  display: block;
   font-family: var(--primary-font-family);
   font-size: 14px;
   line-height: 1.71;
@@ -700,7 +699,7 @@ img {
 
 .modal-window {
   position: absolute;
-  width: 100%;
+  width: 450px;
   padding: 40px;
   top: 50%;
   left: 50%;
