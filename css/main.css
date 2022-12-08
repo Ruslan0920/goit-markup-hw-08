@@ -109,10 +109,6 @@ img {
   background-color: var(--hero-bcg-color);
 }
 
-.features-items__list:not(:last-child) {
-  margin-bottom: 30px;
-}
-
 .features-items__box {
   display: flex;
   justify-content: center;
