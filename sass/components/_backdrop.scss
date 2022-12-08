@@ -6,6 +6,7 @@
   left: 0;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
+  overflow-y: scroll;
   transition: opacity 750ms cubic-bezier(0.4, 0, 0.2, 1),
     scale 750ms cubic-bezier(0.4, 0, 0.2, 1);
 }
