@@ -2,7 +2,7 @@
   background-color: var(--second-bcg-color);
 }
 
-.team-item__list {
+.team-item__list:not(:last-child) {
   margin-bottom: 30px;
 }
 
