@@ -253,11 +253,11 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--first-bcg-color);
+  text-align: center;
 }
 
-.footer-content {
-  display: flex;
-  align-items: baseline;
+.address-block {
+  margin-bottom: 60px;
 }
 
 .footer-contacts__link {
@@ -275,7 +275,7 @@ img {
 }
 
 .footer-contacts__list:not(:last-child) {
-  margin-bottom: 9px;
+  margin-bottom: 12px;
 }
 
 .street {
@@ -283,7 +283,7 @@ img {
 }
 
 .footer-social {
-  margin-left: 70px;
+  margin-bottom: 60px;
 }
 
 .footer-social__title {
@@ -302,10 +302,6 @@ img {
   margin-left: auto;
 }
 
-.form-subscribe {
-  display: flex;
-}
-
 .subscribe-block__title {
   margin-bottom: 20px;
   font-family: var(--primary-font-family);
@@ -319,6 +315,7 @@ img {
 
 .form-subscribe__input {
   width: 358px;
+  margin-bottom: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
@@ -356,9 +353,10 @@ img {
 .form-subscribe__button {
   display: flex;
   align-items: center;
-  justify-content: center;
   width: 200px;
-  margin-left: 12px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 28px;
   padding-right: 28px;
   font-family: var(--primary-font-family);
@@ -463,8 +461,8 @@ img {
 .logo {
   font-family: var(--secondary-font-family);
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--logo-text-color);
   margin-right: 92px;
@@ -479,8 +477,8 @@ img {
   margin-bottom: 20px;
   font-family: var(--secondary-font-family);
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--fourth-text-color);
 }
@@ -927,10 +925,12 @@ img {
   fill: var(--fourth-text-color);
 }
 
-.footer-social__list {
+.footer-social__items {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+}
+
+.footer-social__list {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -939,10 +939,6 @@ img {
 }
 .footer-social__list:first-child {
   margin-left: 0;
-}
-
-.footer-social__items {
-  display: flex;
 }
 
 .footer-social__link {

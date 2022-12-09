@@ -29,10 +29,12 @@
   }
 }
 
-.footer-social__list {
+.footer-social__items {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+}
+
+.footer-social__list {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -42,10 +44,6 @@
   &:first-child {
     margin-left: 0;
   }
-}
-
-.footer-social__items {
-  display: flex;
 }
 
 .footer-social__link {
