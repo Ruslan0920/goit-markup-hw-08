@@ -1,11 +1,10 @@
 .team {
   background-color: var(--second-bcg-color);
 }
-@media screen and (min-width:480px) {
+
+
 .team-item__list:not(:last-child) {
   margin-bottom: 30px;
-}
-
 }
 
 .team-item__card {
