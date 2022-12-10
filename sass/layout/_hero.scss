@@ -7,12 +7,35 @@
   padding-bottom: 118px;
   text-align: center;
   background-size: cover;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url(../img/HeroImg.jpg);
   background-color: var(--hero-bcg-color);
 }
 
+@media screen and (max-width: 767px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../img/Header-img-mobile.jpg);
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../img/Header-img-mobile@2x.jpg);
+  }
+}
 
 // -- DESKTOP--
 
@@ -23,7 +46,7 @@
 //   margin-right: auto;
 //   padding-top: 200px;
 //   padding-bottom: 200px;
-//   text-align: center;
+//   text-align: center;9
 //   background-size: cover;
 //   background-image: linear-gradient(
 //       rgba(47, 48, 58, 0.4),
