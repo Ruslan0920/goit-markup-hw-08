@@ -14,16 +14,17 @@
 flex-basis: calc(100% - 30px)/2;
 }
 
-@media screen and (max-width:479) {
-  .clients-item {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+// @media screen and (max-width:479px) {
+//   .clients-item__list {
+//     display: flex;
+//     flex-wrap: nowrap;
+//     justify-content: center;
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-top: 30px;
+  
+//   }
+// }
 
 .clients-item__link {
   display: flex;
