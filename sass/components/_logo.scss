@@ -27,6 +27,12 @@
   color: var(--third-text-color);
 }
 
+@media screen and (min-width:768px) {
+  .logo {
+    margin-right: 88px;
+  }
+}
+
 // -- DESKTOP--
 
 // .logo {
