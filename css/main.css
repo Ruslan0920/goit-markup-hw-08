@@ -574,6 +574,7 @@ img {
 }
 
 .mobile-menu-item {
+  padding-left: 25px;
   margin-bottom: 306px;
 }
 
@@ -597,6 +598,10 @@ img {
 
 .mobile-menu-item__link--current {
   color: var(--third-text-color);
+}
+
+.mobile-menu-contacts {
+  padding-left: 25px;
 }
 
 .mobile-menu-contacts__mail-tel {
@@ -623,6 +628,7 @@ img {
 
 .mobile-menu-social-links {
   display: flex;
+  padding-left: 25px;
 }
 
 .mobile-menu-social-links__list:not(:last-child) {
