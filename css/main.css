@@ -137,7 +137,7 @@ img {
     width: 100%;
     bottom: 0;
     left: 0;
-    transform: translateY(25px);
+    transform: translateY(32px);
     border-radius: 2px;
     background-color: var(--third-bcg-color);
   }
