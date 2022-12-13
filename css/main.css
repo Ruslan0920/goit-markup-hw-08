@@ -151,13 +151,23 @@ img {
   padding-bottom: 118px;
   text-align: center;
   background-size: cover;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Header-img-mobile.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero-img-mobile.jpg);
   background-color: var(--hero-bcg-color);
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../img/Header-img-mobile@2x.jpg);
+    background-image: url(../img/Hero-img-mobile@2x.jpg);
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: url(../img/Hero-img-tablet.jpg);
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/Hero-img-tablet@2x.jpg);
   }
 }
 .features-items__box {
@@ -190,6 +200,50 @@ img {
   color: var(--secondary-text-color);
 }
 
+@media screen and (min-width: 768px) {
+  .features-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .features-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+  }
+  .features-items__list {
+    margin-left: 30px;
+    flex-basis: calc((100% - 60px) / 2);
+  }
+  .features-items__list:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .features-items__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background: var(--second-bcg-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  .features-items__titles {
+    margin-bottom: 10px;
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+  }
+  .features-items__description {
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+  }
+}
 .work.section {
   padding-top: 0;
 }
@@ -267,6 +321,23 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+  .team-item__list {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100% - 60px) / 2);
+  }
+}
+.team-item__content-wraper {
+  padding: 30px 74px 24px 74px;
 }
 
 .clients-item {
