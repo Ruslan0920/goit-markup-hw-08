@@ -11,7 +11,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../img/Header-img-mobile.jpg);
+    url(../img/Hero-img-mobile.jpg);
   background-color: var(--hero-bcg-color);
 }
 
@@ -19,12 +19,23 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../img/Header-img-mobile@2x.jpg);
+    background-image: url(../img/Hero-img-mobile@2x.jpg);
   }
 }
 
+// -- TABLET--
 
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: url(../img/Hero-img-tablet.jpg);
+  }
+}
 
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/Hero-img-tablet@2x.jpg);
+  }
+}
 
 // -- DESKTOP--
 

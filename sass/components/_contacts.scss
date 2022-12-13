@@ -2,6 +2,8 @@
   display: none;
 }
 
+// -- TABLET--
+
 @media screen and (min-width:768px) {
   .header-contacts {
   display: block;
@@ -9,10 +11,6 @@
 .header-contacts__mail-tel {
   display: flex;
 }
-
-// .header-contacts__mail-tel:not(:last-child) {
-//   margin-right: 50px;
-// }
 
 .header-contacts__mail {
   display: flex;
