@@ -13,12 +13,6 @@
   overflow: auto;
 }
 
-@media screen and (min-width: 480px) {
-  .modal-window {
-    width: 450px;
-  }
-}
-
 .modal-window__close-modal-button {
   position: absolute;
   display: flex;
@@ -195,6 +189,12 @@
   border-radius: 4px;
   cursor: pointer;
   outline: none;
+}
+
+@media screen and (min-width: 480px) {
+  .modal-window {
+    width: 450px;
+   }
 }
 
 // -- DESKTOP--
