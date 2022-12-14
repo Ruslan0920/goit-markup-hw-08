@@ -40,6 +40,17 @@
 
 // -- DESKTOP--
 
+@media screen and (min-width:1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  .logo-footer {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
 // .logo {
 //   font-family: var(--secondary-font-family);
 //   font-weight: 700;

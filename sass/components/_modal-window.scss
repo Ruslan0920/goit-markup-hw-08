@@ -197,6 +197,12 @@
    }
 }
 
+@media screen and (min-width: 1200px) {
+  .modal-window {
+    min-width: 528px;
+  }
+}
+
 // -- DESKTOP--
 
 // .modal-window {

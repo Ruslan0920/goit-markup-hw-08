@@ -61,6 +61,22 @@
 
 // == DESKTOP ==
 
+@media screen and (min-width:1200px) {
+.header-contacts {
+  display: flex;
+}
+.header-contacts__mail-tel:not(:last-child) {
+  margin-right: 50px;
+}
+.header-contacts__mail {
+  margin-bottom: 0;
+}
+.header-contacts a {
+  font-size: 14px;
+  line-height: 1.14;
+}
+}
+
 // .header-contacts {
 //   display: flex;
 // }

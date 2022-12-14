@@ -58,8 +58,19 @@
 }
 }
   
-
 // -- DESKTOP--
+
+@media screen and (min-width: 1200px) {
+  .main-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+}
 
 // .main-header {
 //   padding-top: 25px;
