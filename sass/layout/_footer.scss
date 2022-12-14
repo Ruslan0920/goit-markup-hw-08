@@ -126,6 +126,30 @@ margin-bottom: 60px;
   fill: var(--fifth-bcg-color);
 }
 
+@media screen and (min-width:768px) {
+  .footer {
+    // display: inline-block;
+    // text-align: left;
+    // justify-content: flex-start;
+  }
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+    .address-block {
+        margin-left: 76px;
+        margin-right: 165px;
+  }
+  .footer-social {
+    align-items: baseline;
+  }
+  .subscribe-block {
+    margin-right: auto;
+  }
+}
+
+
 // -- DESKTOP--
 
 // .footer {

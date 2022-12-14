@@ -535,6 +535,23 @@ img {
   fill: var(--fifth-bcg-color);
 }
 
+@media screen and (min-width: 768px) {
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+  .address-block {
+    margin-left: 76px;
+    margin-right: 165px;
+  }
+  .footer-social {
+    align-items: baseline;
+  }
+  .subscribe-block {
+    margin-right: auto;
+  }
+}
 .portfolio-items {
   display: flex;
   flex-wrap: wrap;
@@ -721,7 +738,7 @@ img {
 }
 
 .mobile-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
