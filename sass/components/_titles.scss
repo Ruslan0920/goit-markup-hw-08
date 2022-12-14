@@ -33,6 +33,19 @@
 
 // -- DESKTOP--
 
+@media screen and (min-width: 1200px) {
+  .hero-container__main-title {
+    width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
+  .secondary-titles {
+    font-size: 36px;
+    line-height: 1.17;
+    margin-bottom: 50px;
+  }
+}
+
 // .hero-container__main-title {
 //   width: 696px;
 //   margin-left: auto;

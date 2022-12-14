@@ -64,6 +64,18 @@
 
 // -- DESKTOP--
 
+@media screen and (min-width: 1200px) {
+  .social-links {
+    justify-content: space-between;
+  }
+  .footer-social__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+}
+
+
 // .social-links {
 //   display: flex;
 //   justify-content: space-between;
@@ -108,7 +120,7 @@
 
 // .footer-social__items {
 //   display: flex;
-// }
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!}
 
 // .footer-social__link {
 //   display: flex;
