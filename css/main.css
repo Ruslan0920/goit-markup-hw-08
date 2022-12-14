@@ -539,7 +539,6 @@ img {
   .footer-content {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
   }
   .address-block {
     margin-left: 76px;
@@ -548,8 +547,14 @@ img {
   .footer-social {
     align-items: baseline;
   }
+  .footer-social__title {
+    margin-top: 5px;
+  }
   .subscribe-block {
     margin-right: auto;
+  }
+  .form-subscribe__input {
+    width: 450px;
   }
 }
 .portfolio-items {
@@ -665,6 +670,9 @@ img {
 @media screen and (min-width: 768px) {
   .logo {
     margin-right: 88px;
+  }
+  .logo-footer {
+    margin-bottom: 28px;
   }
 }
 .header-contacts {

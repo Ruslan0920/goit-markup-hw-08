@@ -127,15 +127,10 @@ margin-bottom: 60px;
 }
 
 @media screen and (min-width:768px) {
-  .footer {
-    // display: inline-block;
-    // text-align: left;
-    // justify-content: flex-start;
-  }
   .footer-content {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    // align-items: baseline;
   }
     .address-block {
         margin-left: 76px;
@@ -144,8 +139,15 @@ margin-bottom: 60px;
   .footer-social {
     align-items: baseline;
   }
+  .footer-social__title {
+    margin-top: 5px;
+
+  }
   .subscribe-block {
     margin-right: auto;
+  }
+  .form-subscribe__input {
+    width: 450px;
   }
 }
 
