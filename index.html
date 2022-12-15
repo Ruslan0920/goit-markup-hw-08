@@ -72,7 +72,12 @@
       </div>
       <div class="mobile-menu js-menu-container" id="mobile-menu">
         <div class="container mobile-menu__container">
-          <button type="button" class="mobile-menu__close-button js-close-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <button
+            type="button"
+            class="mobile-menu__close-button js-close-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
             <svg class="mobile-menu__close-icon" width="40" height="40">
               <use href="./img/icons.svg#icon-close-mobile-menu"></use>
             </svg>
@@ -316,30 +321,39 @@
           <h2 class="secondary-titles">Чим ми займаємося</h2>
           <ul class="work-items">
             <li class="work-items__list">
-              <img
-                src="./img/job1.jpg"
-                alt="руки на клавіатурі"
-                width="370"
-                height="295"
-              />
+              <picture>
+                <source
+                  srcset="./img/job1.webp 1x, ./img/job1@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source srcset="./img/job1.jpg 1x, ./img/job1@2.jpg 2x" />
+                <img src="./img/job1.jpg" alt="руки на клавіатурі" />
+              </picture>
               <p class="work-items__caption">Десктопні додатки</p>
             </li>
             <li class="work-items__list">
-              <img
-                src="./img/job2.jpg"
-                alt="руки на клавіатурі ноутбука"
-                width="370"
-                height="295"
-              />
+              <picture>
+                <source
+                  srcset="./img/job2.webp 1x, ./img/job2@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source srcset="./img/job2.jpg 1x, ./img/job2@2.jpg 2x" />
+                <img src="./img/job2.jpg" alt="рука на клавіатурі ноутбука" />
+              </picture>
               <p class="work-items__caption">Мобільні додатки</p>
             </li>
             <li class="work-items__list">
-              <img
-                src="./img/job3.jpg"
-                alt="планшет в руках"
-                width="370"
-                height="295"
-              />
+              <picture>
+                <source
+                  srcset="./img/job3.webp 1x, ./img/job3@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source srcset="./img/job3.jpg 1x, ./img/job3@2.jpg 2x" />
+                <img
+                  src="./img/job3.jpg"
+                  alt="планшет в руках"
+                />
+              </picture>
               <p class="work-items__caption">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -354,15 +368,15 @@
             <li class="team-item__list">
               <picture>
                 <source
-                  media="(max-width: 1199px)"
+                  media="(min-width: 768px)"
                   srcset="
-                    ./img/tablet/command1-tablet.webp   1x,
+                    ./img/tablet/command1-tablet.webp    1x,
                     ./img/tablet/command1-tablet@2x.webp 2x
                   "
                   type="image/webp"
                 />
                 <source
-                  media="(max-width: 1199px)"
+                  media="(min-width: 768px)"
                   srcset="
                     ./img/tablet/command1-tablet.jpg    1x,
                     ./img/tablet/command1-tablet@2x.jpg 2x
@@ -431,7 +445,7 @@
             <li class="team-item__list">
               <picture>
                 <source
-                  media="(max-width: 1199px)"
+                  media="(min-width: 768px)"
                   srcset="
                     ./img/tablet/command2-tablet.webp    1x,
                     ./img/tablet/command2-tablet@2x.webp 2x
@@ -439,7 +453,7 @@
                   type="image/webp"
                 />
                 <source
-                  media="(max-width: 1199px)"
+                  media="(min-width: 768px)"
                   srcset="
                     ./img/tablet/command2-tablet.jpg    1x,
                     ./img/tablet/command2-tablet@2x.jpg 2x
@@ -507,7 +521,7 @@
             <li class="team-item__list">
               <picture>
                 <source
-                  media="(max-width: 1199px)"
+                  media="(min-width: 768px)"
                   srcset="
                     ./img/tablet/command3-tablet.webp    1x,
                     ./img/tablet/command3-tablet@2x.webp 2x
@@ -515,7 +529,7 @@
                   type="image/webp"
                 />
                 <source
-                  media="(max-width: 1199px)"
+                  media="(min-width: 768px)"
                   srcset="
                     ./img/tablet/command3-tablet.jpg    1x,
                     ./img/tablet/command3-tablet@2x.jpg 2x
@@ -581,7 +595,7 @@
             <li class="team-item__list">
               <picture>
                 <source
-                  media="(max-width: 1199px)"
+                  media="(min-width: 768px)"
                   srcset="
                     ./img/tablet/command4-tablet.webp    1x,
                     ./img/tablet/command4-tablet@2x.webp 2x
@@ -589,7 +603,7 @@
                   type="image/webp"
                 />
                 <source
-                  media="(max-width: 1199px)"
+                  media="(min-width: 768px)"
                   srcset="
                     ./img/tablet/command4-tablet.jpg    1x,
                     ./img/tablet/command4-tablet@2x.jpg 2x

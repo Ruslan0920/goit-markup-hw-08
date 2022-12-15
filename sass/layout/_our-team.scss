@@ -63,6 +63,18 @@
 
 // -- DESKTOP--
 
+@media screen and (min-width:1200px) {
+.team-items {
+flex-wrap: nowrap;
+}
+.team-item__list {
+  flex-basis: calc((100% - 120px) / 4);
+}
+.team-item__content-wraper {
+  padding: 30px 32px;
+}
+}
+
 // .team {
 //   background-color: var(--second-bcg-color);
 // }
