@@ -187,6 +187,16 @@ img {
     background-image: url(../img/Hero-img-tablet@2x.jpg);
   }
 }
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: url(../img/Hero-img-desktop.jpg);
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/Hero-img-desktop@2x.jpg);
+  }
+}
 .features-items__box {
   display: flex;
   justify-content: center;

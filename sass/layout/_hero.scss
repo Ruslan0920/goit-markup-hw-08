@@ -36,9 +36,18 @@
 }
 }
 
-
-
 // -- DESKTOP--
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: url(../img/Hero-img-desktop.jpg);
+  }
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/Hero-img-desktop@2x.jpg);
+  }
+}
+}
 
 // .hero {
 //   max-width: 1600px;
