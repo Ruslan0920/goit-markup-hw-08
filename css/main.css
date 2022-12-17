@@ -171,12 +171,12 @@ img {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero-img-mobile.jpg);
   background-color: var(--hero-bcg-color);
 }
+
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero .hero {
+  .hero {
     background-image: url(../img/Hero-img-mobile@2x.jpg);
   }
 }
-
 @media screen and (min-width: 768px) {
   .hero {
     background-image: url(../img/Hero-img-tablet.jpg);
@@ -521,7 +521,7 @@ img {
 }
 
 .form-subscribe__input {
-  width: 358px;
+  width: 100%;
   margin-bottom: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
