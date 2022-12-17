@@ -171,12 +171,12 @@ img {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Hero-img-mobile.jpg);
   background-color: var(--hero-bcg-color);
 }
-
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero {
+  .hero .hero {
     background-image: url(../img/Hero-img-mobile@2x.jpg);
   }
 }
+
 @media screen and (min-width: 768px) {
   .hero {
     background-image: url(../img/Hero-img-tablet.jpg);
@@ -189,6 +189,10 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .hero {
+    max-width: 1600px;
+    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-image: url(../img/Hero-img-desktop.jpg);
   }
 }
@@ -254,14 +258,7 @@ img {
     margin-bottom: 30px;
   }
   .features-items__titles {
-    margin-bottom: 10px;
-    font-family: var(--primary-font-family);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--primary-text-color);
+    text-align: left;
   }
   .features-items__description {
     font-family: var(--primary-font-family);
@@ -626,6 +623,7 @@ img {
   .footer-social {
     margin-left: 0;
     margin-bottom: 0;
+    text-align: left;
   }
   .subscribe-block {
     margin-left: auto;
