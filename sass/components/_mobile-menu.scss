@@ -44,8 +44,8 @@
 
 .mobile-menu__container {
   position: relative;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .mobile-menu__close-button {
@@ -66,7 +66,7 @@
 }
 
 .mobile-menu-item {
-margin-bottom: 25vh;
+margin-bottom: 20vh;
 }
 
 .mobile-menu-item__list:not(:last-child) {
@@ -116,7 +116,7 @@ margin-bottom: 25vh;
   font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
 
   color: var(--secondary-text-color);
@@ -156,6 +156,10 @@ margin-bottom: 25vh;
 }
 
 @media screen and (min-width:480px) {
+ .mobile-menu__container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
   .mobile-menu-item {
   padding-left: 25px;
   margin-bottom: 306px;
