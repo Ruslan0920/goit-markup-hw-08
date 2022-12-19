@@ -1276,7 +1276,7 @@ img {
 }
 .policy-label {
   position: relative;
-  display: flex;
+  display: inline-block;
   align-items: center;
   margin-bottom: 30px;
   font-family: var(--primary-font-family);
@@ -1287,9 +1287,6 @@ img {
 }
 
 .policy-label__icon--checkbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 16px;
   height: 15px;
   margin-right: 8px;
@@ -1331,6 +1328,14 @@ img {
 @media screen and (min-width: 480px) {
   .modal-window {
     width: 450px;
+  }
+  .policy-label {
+    display: flex;
+  }
+  .policy-label__icon--checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media screen and (min-width: 1200px) {
