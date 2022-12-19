@@ -29,7 +29,12 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  }
+
+.features-items__list:not(:last-child) {
+  margin-bottom: 30px;
 }
+
 
 // -- TABLET--
 
@@ -47,12 +52,11 @@
 
 .features-items__list {
   margin-left: 30px;
+  margin-bottom: 0;
   flex-basis: calc((100% - 60px) / 2);
 }
 
-.features-items__list:not(:last-child) {
-  margin-bottom: 30px;
-}
+
 
 .features-items__box {
   display: flex;
@@ -67,14 +71,6 @@
 .features-items__titles {
   text-align: left;
 }
-
-.features-items__description {
-  font-family: var(--primary-font-family);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-}
 }
 
 // -- DESKTOP--
@@ -87,7 +83,6 @@
     flex-wrap: nowrap;
   }
   .features-items__list {
-  margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
 }
