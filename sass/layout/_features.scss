@@ -31,8 +31,11 @@
   color: var(--secondary-text-color);
   }
 
-.features-items__list:not(:last-child) {
+.features-items__list {
   margin-bottom: 30px;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 
@@ -52,11 +55,11 @@
 
 .features-items__list {
   margin-left: 30px;
-  margin-bottom: 0;
   flex-basis: calc((100% - 60px) / 2);
+  &:nth-last-child(2) {
+    margin-bottom: 0;
+  }
 }
-
-
 
 .features-items__box {
   display: flex;
@@ -83,7 +86,8 @@
     flex-wrap: nowrap;
   }
   .features-items__list {
-  flex-basis: calc((100% - 120px) / 4);
+    margin-bottom: 0;
+    flex-basis: calc((100% - 120px) / 4);
 }
 }
 
